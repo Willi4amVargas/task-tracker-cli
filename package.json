@@ -1,0 +1,22 @@
+{
+  "name": "task-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.ts",
+    "build": "tsc main.ts --outDir ./dist",
+    "test":"node --test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "typescript": "^5.9.3"
+  },
+  "bin": {
+    "task-cli": "./main.ts"
+  }
+}
